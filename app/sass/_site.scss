@@ -17,7 +17,7 @@
   }
 
   &:after,
-  .site__footer {
+  .site__footer-layout {
     height: 200px;
   }
 
@@ -35,11 +35,15 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #252525;
+    background: $site-footer-bg;
+    text-align: center;
   }
 
   .site__footer-layout {
+    position: relative;
+    max-width: 930px;
     padding: 20px;
+    margin: 0 auto;
   }
 
 }
@@ -53,6 +57,16 @@
 
     .site__header-bottom {
       background: $site-header-bottom-bg;
+    }
+
+    .site__footer-layout {
+      padding: 63px 20px 0 160px;
+      text-align: right;
+    }
+
+    &:after,
+    .site__footer-layout {
+      height: 141px;
     }
 
   }

@@ -14,7 +14,12 @@
 }
 
 @media (min-width: $tablet-portrait) {
-  .footer-logo {}
+  .footer-logo {
+    position: absolute;
+    top: 31px;
+    left: 20px;
+    margin: 0;
+  }
 }
 
 /* ------------ /footer-logo ------------ */
