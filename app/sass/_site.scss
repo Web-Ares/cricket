@@ -1,5 +1,46 @@
 .site {
-  @include justify;
+  overflow: hidden;
+  font-family: $font_2;
+
+  .site__center {
+    position: relative;
+    max-width: 676px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 100%;
+  }
+
+  &:after,
+  .site__footer {
+    height: 200px;
+  }
+
+  .site__header-bottom {
+    background: $site-header-bottom-bg;
+  }
+
+  .site__header-top {
+    height: 53px;
+  }
+
+  .site__footer {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #252525;
+  }
+
+  .site__footer-layout {
+    padding: 20px;
+  }
 
 }
 @media (min-width: $phone-landscape) {
@@ -9,6 +50,10 @@
 }
 @media (min-width: $tablet-portrait) {
   .site {
+
+    .site__header-bottom {
+      background: $site-header-bottom-bg;
+    }
 
   }
 }
