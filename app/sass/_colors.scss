@@ -4,6 +4,8 @@ $site-minor-color: #fff;
 $site-footer-bg: #070707;
 $site-header-bottom-bg: #030303;
 $site-main-headline-bg: #030303;
+$site-main-title-color: #fff;
+$site-main-title-border-color: #fff;
 /* ------------ /site ------------ */
 
 /* ------------ copyright ------------ */
@@ -33,16 +35,10 @@ $nice-checkbox-color: #000;
 /*---------- /nice-checkbox ---------*/
 
 /*---------- btn ----------*/
-$btn-back: #ff0;
-$btn-back-hover: #ffa;
-$btn-back-active: #000;
-$btn-color: #000;
-$btn-color-active: #ff0;
-
-$btn-2-back: #f00;
-$btn-2-back-hover: #f0a;
-$btn-2-back-active: #000;
-$btn-2-color-active: #f0a;
+$btn-back: linear-gradient(to bottom,  rgba(82,131,215,1) 0%,rgba(82,143,215,1) 100%);
+$btn2-back: #ff9933;
+$btn-color: #fff;
+$btn2-color: #000;
 /*---------- /btn ---------*/
 
 /* ------------ upcoming-match ------------ */
@@ -53,3 +49,7 @@ $upcoming-main-bg: #000;
 /*---------- social-networks ---------*/
 $social-networks-border-color: #fff;
 /*---------- /social-networks ---------*/
+
+/*---------- upcoming-matches ---------*/
+$upcoming-matches-border-color: #000
+/*---------- /upcoming-matches ---------*/
