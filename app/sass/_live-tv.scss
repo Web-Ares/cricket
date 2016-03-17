@@ -1,0 +1,31 @@
+/* --------------- live-tv --------------- */
+.live-tv {
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+
+  .live-tv__video {
+    max-width: 636px;
+    height: 360px;
+    margin: 0 auto 13px;
+  }
+
+  .live-tv__try {
+    max-width: 500px;
+    margin: 0 auto 24px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .live-tv__text {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 14px 0 0;
+  }
+}
+
+@media (min-width: $tablet-portrait) {
+
+}
+/* --------------- /live-tv --------------- */

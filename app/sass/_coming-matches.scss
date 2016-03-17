@@ -1,0 +1,43 @@
+/* --------------- upcoming-matches --------------- */
+.upcoming-matches {
+
+
+  .upcoming-matches__layout {
+    position: relative;
+    min-height: 86px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    background: url("../img/coming-matches.jpg") no-repeat top center #ebebeb;
+    background-size: cover;
+
+    span {
+      display: block;
+    }
+    &:after {
+      position: absolute;
+      left: 0;
+      bottom: -20px;
+      width: 100%;
+      height: 4px;
+      background: $upcoming-matches-border-color;
+      content: '';
+    }
+
+  }
+
+  .upcoming-matches__game{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+  }
+
+}
+
+
+@media (min-width: $tablet-portrait) {
+
+}
+/* --------------- /upcoming-matches --------------- */
