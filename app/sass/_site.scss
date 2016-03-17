@@ -1,4 +1,5 @@
 .site {
+  position: relative;
   overflow: hidden;
   @include main-font1();
 
@@ -66,7 +67,7 @@
     color: #fff;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
-    font-family: $font;
+    //font-family: $font;
     font-weight: 400;
     font-size: 36px;
     line-height: 39px;
