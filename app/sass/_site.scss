@@ -29,6 +29,10 @@
     height: 53px;
   }
 
+  .site__content {
+    padding: 7px 0 0;
+  }
+
   .site__footer {
     z-index: 2;
     position: absolute;
@@ -40,6 +44,29 @@
 
   .site__footer-layout {
     padding: 20px;
+  }
+
+  .site__main-headline {
+    position: relative;
+    padding: 16px 0 15px;
+    margin: 0 0 14px;
+    background: $site-main-headline-bg;
+
+    >.site__center {
+      padding-top: 41px;
+    }
+  }
+
+  .site__main-title {
+    padding: 13px 0;
+    color: #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-family: $font;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
   }
 
 }
