@@ -1,6 +1,6 @@
 .site {
   overflow: hidden;
-  font-family: $font_2;
+  @include main-font1();
 
   .site__center {
     position: relative;
