@@ -1,25 +1,26 @@
-/* --------------- upcoming-matches --------------- */
-.upcoming-matches {
+/* --------------- pcoming-matches --------------- */
+.coming-matches {
+  margin: 0 0 59px;
 
-
-  .upcoming-matches__layout {
+  .coming-matches__layout {
     position: relative;
     min-height: 86px;
-    margin-bottom: 30px;
+    margin: 0 0 20px;
+    padding: 6px;
     font-size: 12px;
     line-height: 15px;
     text-align: center;
     text-transform: uppercase;
-    background: url("../img/coming-matches.jpg") no-repeat top center #ebebeb;
-    background-size: cover;
+    background: #ebebeb;
 
     span {
       display: block;
+      margin: 0 0 4px;
     }
     &:after {
       position: absolute;
       left: 0;
-      bottom: -20px;
+      bottom: -17px;
       width: 100%;
       height: 4px;
       background: $upcoming-matches-border-color;
@@ -28,7 +29,7 @@
 
   }
 
-  .upcoming-matches__game{
+  .coming-matches__game{
     font-size: 20px;
     line-height: 23px;
     font-weight: 700;
@@ -38,6 +39,14 @@
 
 
 @media (min-width: $tablet-portrait) {
+  .coming-matches {
 
+    .coming-matches__layout {
+      margin: 0 12px 20px;
+      padding: 6px 140px;
+      background: url("../img/coming-matches.jpg") no-repeat top center #ebebeb;
+      background-size: 100% 100%;
+    }
+  }
 }
 /* --------------- /upcoming-matches --------------- */

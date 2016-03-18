@@ -10,7 +10,7 @@
   line-height: 25px;
   background: $btn-back;
   text-transform: uppercase;
-  font-family: $font;
+  @include main-font2();
   transition: opacity 0.3s ease;
   box-shadow: 0 0 10px -1px rgba(0,0,0,0.4);
 
@@ -22,8 +22,8 @@
 .btn_2 {
   height: 23px;
   width: 207px;
-  padding: 2px 10px;
-  background: $btn2-back;
+  padding: 4px 30px;
+  background: url("../img/arrows2.png") no-repeat 93% center $btn2-back;
   box-shadow: none;
   font-size: 17px;
   line-height: 17px;

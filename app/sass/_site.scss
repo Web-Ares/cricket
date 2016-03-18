@@ -31,7 +31,7 @@
   }
 
   .site__content {
-    padding: 7px 0 0;
+    padding: 7px 0 52px;
   }
 
   .site__footer {
@@ -67,7 +67,7 @@
     color: $site-main-title-color;
     border-top: 2px solid $site-main-title-border-color;
     border-bottom: 2px solid $site-main-title-border-color;
-    font-family: $font;
+    @include main-font2();
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -76,6 +76,7 @@
 
   .site__title {
     position: relative;
+    margin: 0 0 8px;
     font-size: 25px;
     line-height: 40px;
     text-align: center;
@@ -85,27 +86,23 @@
       position: relative;
       z-index: 1;
       padding: 0 10px;
-      background: #fff;
+      background: $site-title-span-bg;
     }
 
     &:after {
       content: '';
       position: absolute;
       top: 50%;
-      left: 0;
-      width: 100%;
+      right: 12px;
+      left: 12px;
       height: 7px;
-      background: #000;
-      margin-top: -3.5px;
+      background: $site-title-border-color;
+      margin-top: -2.5px;
     }
   }
 
 }
-@media (min-width: $phone-landscape) {
-  .site {
 
-  }
-}
 @media (min-width: $tablet-portrait) {
   .site {
 
@@ -129,15 +126,5 @@
     }
   }
 
-}
-@media (min-width: $tablet-landscape) {
-  .site {
-
-  }
-}
-@media (min-width: $desktop) {
-  .site {
-
-  }
 }
 
